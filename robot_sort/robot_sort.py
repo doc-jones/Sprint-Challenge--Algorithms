@@ -96,7 +96,7 @@ class SortingRobot:
         """
         Sort the robot's list.
         """
-        # Fill this out
+        # Fill this out - Use Insertion Sort 
         pass
 
 
@@ -110,3 +110,7 @@ if __name__ == "__main__":
 
     robot.sort()
     print(robot._list)
+
+    """
+
+    """
