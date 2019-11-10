@@ -11,6 +11,14 @@ In other cases we've looked at the bigger of values for Big O dominate, but in t
 
 
 b)
+sum = 0 is a single operation  = O(1)
+for i in range(n)  loop thru n = O(n)
+j = 1 is a single operation    = O(1)
+while j < n  loop n times      = O̶(̶n̶)̶
+j *= 2  j doubles on each loop = O(logn)
+sum += 1  single operation     = O(1)
+
+Nested loops = O(n * logn) = O(nlogn)
 
 
 c)
