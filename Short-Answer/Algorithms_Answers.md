@@ -38,3 +38,4 @@ If dropped_egg is not a broken egg continue to divide f until dropped_egg is a b
 But if dropped_egg is a broken_egg then
 Add 1 to f until
 f = broken_egg
+This is a Binary Search which has a runtime of O(logn) because we cut input in halves.
