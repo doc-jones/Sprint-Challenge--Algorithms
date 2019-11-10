@@ -22,6 +22,13 @@ Nested loops = O(n * logn) = O(nlogn)
 
 
 c)
+def bunnyEars(bunnies):
+if bunnies == 0: equals 0 once      = O(1) base case
+return 0         one operation      = O(1)
+
+return 2 + bunnyEars(bunnies-1)
+loops one bunny at a time until 0   = 0(n)
+Increases in bunnies will cause the call to bunnyEars to run bunnies-1 times until it hits zero, so the total runtime is O(n)
 
 ## Exercise II
 
