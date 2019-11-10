@@ -32,4 +32,9 @@ Increases in bunnies will cause the call to bunnyEars to run bunnies-1 times unt
 
 ## Exercise II
 
-
+First cut the problem in half and then test for condition of dropped_egg.
+Divide n - which is floors - in half, n/2 to equal f
+If dropped_egg is not a broken egg continue to divide f until dropped_egg is a broken_egg
+But if dropped_egg is a broken_egg then
+Add 1 to f until
+f = broken_egg
