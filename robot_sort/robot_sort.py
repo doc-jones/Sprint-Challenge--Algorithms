@@ -96,7 +96,7 @@ class SortingRobot:
         """
         Sort the robot's list.
         """
-        # Fill this out - Use Insertion Sort 
+        # Fill this out - Use Insertion Sort strategy for my solution
         pass
 
 
