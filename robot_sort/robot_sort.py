@@ -112,5 +112,18 @@ if __name__ == "__main__":
     print(robot._list)
 
     """
+def sort(self):
+    position 0 is considered sorted
+    robot move_right to start at position = 1
+    while robot can_move_right
+        compare item at position with item at position - 1
+        while item at position - 1 > item at position
+            move-left
+            position = position - 1
+        swap item
+        
 
+
+    
+            
     """
